@@ -36,11 +36,11 @@ export default function Page() {
         </Breadcrumb>
       </div>
           <div className="min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min" >
-          <HoverEffect items={projects} />
+          <HoverEffect items={WarGames} />
         </div></div>
   );
 }
-export const projects = [
+export const WarGames = [
   {
     title: "100xDev",
     description:
