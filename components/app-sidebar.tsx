@@ -1,6 +1,5 @@
 "use client"
 import { Switch } from "./toggle-dark"
-import { IconBrandGit } from '@tabler/icons-react';
 import * as React from "react"
 import {
   BookOpen,
@@ -14,6 +13,10 @@ import {
   Settings2,
   SquareTerminal,
 } from "lucide-react"
+import { Mails } from 'lucide-react';
+import { Github } from 'lucide-react';
+
+import { GraduationCap } from 'lucide-react';
 import { BotMessageSquare } from 'lucide-react';
 import { BrainCog } from 'lucide-react';
 import { Fingerprint } from 'lucide-react';
@@ -27,8 +30,6 @@ import { NavUser } from "@/components/nav-user"
 import { Swords } from 'lucide-react';
 import { Database } from 'lucide-react';
 import { PanelsTopLeft } from 'lucide-react';
-import { IconSchool } from '@tabler/icons-react';
-import { IconMailOpened } from '@tabler/icons-react';
 import { ShieldCheck } from 'lucide-react';
 import {
   Sidebar,
@@ -225,17 +226,17 @@ const data = {
     {
       title: "Google Classroom",
       url: "https://classroom.google.com/",
-      icon: IconSchool,
+      icon: GraduationCap,
     },
     {
       title: "Gmail",
       url: "https://mail.google.com/mail/u/0/#inbox",
-      icon: IconMailOpened,
+      icon: Mails,
     },
     {
       title: "Github",
       url: "https://github.com/kintsugi-programmer",
-      icon: IconBrandGit,
+      icon: Github,
     },
   ],
 
