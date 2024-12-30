@@ -1,6 +1,5 @@
 'use client'
  
-import { useRouter } from 'next/navigation'
  
 import Link from 'next/link';
 import {
@@ -60,6 +59,11 @@ type LinksDictionary = {
               <BreadcrumbLink href="/">
                 Home
               </BreadcrumbLink>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator className="hidden md:block" />
+            <BreadcrumbItem>
+            <Link href="/dashboard" >
+              <BreadcrumbPage >Dashboard</BreadcrumbPage></Link>
             </BreadcrumbItem>
             <BreadcrumbSeparator className="hidden md:block" />
             <BreadcrumbItem>
