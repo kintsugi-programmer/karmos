@@ -60,6 +60,7 @@ export default function RootLayout({
       <SidebarInset>
   
         {children}
+        
         </SidebarInset>
     </SidebarProvider>
         {/* <Footer/> */}
