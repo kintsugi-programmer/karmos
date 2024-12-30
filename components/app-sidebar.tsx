@@ -1,5 +1,6 @@
 "use client"
 import { Switch } from "./toggle-dark"
+import { HomeSwitch } from "./buttons/home"
 import * as React from "react"
 import {
   BookOpen,
@@ -394,7 +395,12 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
           <SidebarMenuItem>
          
             <SidebarMenuButton size="lg" asChild>
-            <Switch/>
+              <div>
+              <Switch/>
+              <HomeSwitch/>
+              </div>
+              
+
               {/* <a href="#">
                 <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
                   <Command className="size-4" />
