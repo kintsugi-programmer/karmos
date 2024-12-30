@@ -2,6 +2,9 @@
 import { Switch } from "./toggle-dark"
 import { HomeSwitch } from "./buttons/home"
 import * as React from "react"
+import { Disc2 } from 'lucide-react';
+import { TreeDeciduous } from 'lucide-react';
+
 import {
   BookOpen,
   Bot,
@@ -210,6 +213,129 @@ const data = {
 
       ],
     },
+    {
+      title: "Albums",
+      url: "/dashboard/tuts/Haiku",
+      icon: Disc2,
+      items: [
+        {
+          title: "Haiku",
+          url: "/dashboard/tuts/Haiku"
+        },
+        {
+          title: "The Millennials Folklore",
+          url: "/dashboard/tuts/The-Millennials-Folklore"
+        },
+        {
+          title: "Kshama",
+          url: "/dashboard/tuts/Kshama"
+        },
+        {
+          title: "Runaway",
+          url: "/dashboard/tuts/Runaway"
+        },
+        {
+          title: "Monopoly Moves",
+          url: "/dashboard/tuts/Monopoly-Moves"
+        },
+        {
+          title: "Damn",
+          url: "/dashboard/tuts/Damn"
+        },
+        {
+          title: "The Millennials Folklore",
+          url: "/dashboard/tuts/The-Millennials-Folklore"
+        },
+        {
+          title: "Nectar",
+          url: "/dashboard/tuts/Nectar"
+        },
+        {
+          title: "Haiku",
+          url: "/dashboard/tuts/Haiku"
+        },
+        {
+          title: "Ghost of Tshusima",
+          url: "/dashboard/tuts/Ghost-of-Tshusima"
+        },
+        {
+          title: "Aot",
+          url: "/dashboard/tuts/Aot"
+        }
+      ]
+    },{
+      
+        title: "Bhakti",
+        url: "/dashboard/tuts/Haiku",
+        icon: TreeDeciduous,
+        items: [{
+          title: "Jai Radhey",
+          url: "/dashboard/tuts/Jai-Radhey"
+        }
+        ,
+        {
+          title: "Bhagwat Geeta",
+          url: "/dashboard/tuts/Bhagwat-Geeta"
+        }
+        ,
+        {
+          title: "Hardev Vani",
+          url: "/dashboard/tuts/Hardev-Vani"
+        }
+        ,
+        {
+          title: "Avtar Vani",
+          url: "/dashboard/tuts/Avtar-Vani"
+        }
+        ,
+        {
+          title: "Antaryami",
+          url: "/dashboard/tuts/Antaryami"
+        }
+        ,
+        {
+          title: "Jind Mahi",
+          url: "/dashboard/tuts/Jind-Mahi"
+        }
+        ,
+        {
+          title: "Mehfil E Ruhaniyat Vol 1",
+          url: "/dashboard/tuts/Mehfil-E-Ruhaniyat-vol1"
+        }
+        ,
+        {
+          title: "Mehfil E Ruhaniyat Vol 2",
+          url: "/dashboard/tuts/Mehfil-E-Ruhaniyat-vol2"
+        }
+        ,
+        {
+          title: "Ilahi Daat",
+          url: "/dashboard/tuts/Ilahi-Daat"
+        }
+        ,
+        {
+          title: "Hanuman Chalisa",
+          url: "/dashboard/tuts/Hanuman-Chalisa"
+        }
+        ,
+        {
+          title: "Hanuman Chalisa Lofi",
+          url: "/dashboard/tuts/Hanuman-Chalisa-Lofi"
+        }
+        ,
+        {
+          title: "Krishna Tilak's Ver",
+          url: "/dashboard/tuts/Krishna-Tilak's-ver"
+        }
+        ,
+        {
+          title: "Krishna",
+          url: "/dashboard/tuts/Krishna"
+        }
+
+        ]
+    }
+    
   ],
 
 
@@ -389,12 +515,14 @@ const data = {
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
-    <Sidebar variant="inset" {...props}>
-      <SidebarHeader>
+    <Sidebar variant="inset" {...props} > 
+      
+      <SidebarHeader >
         <SidebarMenu>
           <SidebarMenuItem>
          
-            <SidebarMenuButton size="lg" asChild>
+            <SidebarMenuButton asChild> 
+              {/* size="lg"  */}   
               <div>
               <Switch/>
               <HomeSwitch/>
@@ -415,7 +543,13 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         </SidebarMenu>
       </SidebarHeader>
       
-      <SidebarContent>
+      <SidebarContent 
+      style={{
+        overflowY: 'auto',  // Enables scrolling if content overflows vertically
+        scrollbarWidth: 'thin', // Optional: makes the scrollbar thinner
+        scrollbarColor: 'transparent transparent', // Hides the scrollbar while keeping scrolling functionality
+      }}
+      >
         <NavMain items={data.navMain} />
         {/* <NavProjects projects={data.projects} /> */}
         <NavSecondary items={data.navSecondary} className="mt-auto" />

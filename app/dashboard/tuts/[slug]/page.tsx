@@ -72,3 +72,5 @@ type LinksDictionary = {
     }
   }
   
+
+  // ?rel=0 No Other More Videos In suggestion,yt link 
