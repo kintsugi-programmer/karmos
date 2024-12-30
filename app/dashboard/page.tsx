@@ -16,8 +16,8 @@ import {
   SidebarTrigger,} from "@/components/ui/sidebar"  
 export default function Page() {
   return (
-<div className="flex flex-1 flex-col gap-4 p-4 ">
-<div className="flex items-center gap-2 px-4 py-2">
+<div className="flex flex-1 flex-col  px-4 ">
+<div className="flex items-center gap-2  py-2">
         <SidebarTrigger className="-ml-1" />
         <Separator orientation="vertical" className="mr-2 h-4" />
         <Breadcrumb>

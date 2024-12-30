@@ -63,7 +63,7 @@ type LinksDictionary = {
             <BreadcrumbSeparator className="hidden md:block" />
             <BreadcrumbItem>
             <Link href="/dashboard" >
-              <BreadcrumbPage >Dashboard</BreadcrumbPage></Link>
+              Dashboard</Link>
             </BreadcrumbItem>
             <BreadcrumbSeparator className="hidden md:block" />
             <BreadcrumbItem>
@@ -101,6 +101,11 @@ type LinksDictionary = {
                   Home
                 </BreadcrumbLink>
               </BreadcrumbItem>
+              <BreadcrumbSeparator className="hidden md:block" />
+            <BreadcrumbItem>
+            <Link href="/dashboard" >
+              Dashboard</Link>
+            </BreadcrumbItem>
               <BreadcrumbSeparator className="hidden md:block" />
               <BreadcrumbItem>
               <Link href={content2} target="_blank">

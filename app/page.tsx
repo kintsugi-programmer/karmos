@@ -18,8 +18,8 @@ import {
   SidebarTrigger,} from "@/components/ui/sidebar"  
 export default function Home() {
   return (
-    <div className="flex flex-1 flex-col gap-4 p-4 ">
-    <div className="flex items-center gap-2 px-4 py-2">
+    <div className="flex flex-1 flex-col px-4 ">
+    <div className="flex items-center gap-2  py-2">
         <SidebarTrigger className="-ml-1" />
         <Separator orientation="vertical" className="mr-2 h-4" />
         <Breadcrumb>
@@ -34,7 +34,7 @@ export default function Home() {
       </div>
       
       <div className="min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min flex flex-col justify-center items-center">
-  <div className="flex justify-center items-center ">  {/* Ensure Dash is centered */}
+  <div className="flex justify-center items-center pt-5">  {/* Ensure Dash is centered */}
     <Dash />
 
 </div>
