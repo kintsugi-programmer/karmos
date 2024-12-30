@@ -16,6 +16,7 @@ import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,} from "@/components/ui/sidebar"  
+import { Adv } from "@/components/Adv";
 export default function Home() {
   return (
     <div className="flex flex-1 flex-col px-4 pb-4">
@@ -33,11 +34,10 @@ export default function Home() {
         </Breadcrumb>
       </div>
       
-      <div className="min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min flex flex-col justify-center items-center">
-  <div className="flex justify-center items-center pt-5">  {/* Ensure Dash is centered */}
-    <Dash />
+      <div className=" flex-1 rounded-xl bg-muted/50 flex flex-col justify-center items-center">
+      <Adv/>
+   
 
-</div>
 
 
               </div>
