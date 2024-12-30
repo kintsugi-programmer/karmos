@@ -219,10 +219,6 @@ const data = {
       icon: Disc2,
       items: [
         {
-          title: "Haiku",
-          url: "/dashboard/tuts/Haiku"
-        },
-        {
           title: "The Millennials Folklore",
           url: "/dashboard/tuts/The-Millennials-Folklore"
         },
