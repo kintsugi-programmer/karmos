@@ -517,19 +517,19 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar variant="inset" {...props} > 
       
-      <SidebarHeader >
-        <SidebarMenu>
-          <SidebarMenuItem>
-         
-            <SidebarMenuButton asChild> 
-              {/* size="lg"  */}   
-              <div>
+      <SidebarHeader ><div className="flex flex-row space-x-2">
               <Switch/>
               <HomeSwitch/>
               </div>
+        {/* <SidebarMenu>
+          <SidebarMenuItem>
+         
+            <SidebarMenuButton asChild> 
+              size="lg"    
+              
               
 
-              {/* <a href="#">
+              <a href="#">
                 <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
                   <Command className="size-4" />
                 </div>
@@ -537,10 +537,10 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                   <span className="truncate font-semibold">Acme Inc</span>
                   <span className="truncate text-xs">Enterprise</span>
                 </div>
-              </a> */}
+              </a>
             </SidebarMenuButton>
           </SidebarMenuItem>
-        </SidebarMenu>
+        </SidebarMenu> */}
       </SidebarHeader>
       
       <SidebarContent 
