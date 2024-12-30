@@ -1,5 +1,6 @@
 "use client"
-
+import { Switch } from "./toggle-dark"
+import { IconBrandGit } from '@tabler/icons-react';
 import * as React from "react"
 import {
   BookOpen,
@@ -13,11 +14,22 @@ import {
   Settings2,
   SquareTerminal,
 } from "lucide-react"
-
+import { BotMessageSquare } from 'lucide-react';
+import { BrainCog } from 'lucide-react';
+import { Fingerprint } from 'lucide-react';
+import { Cog } from 'lucide-react';
+import { TabletSmartphone } from 'lucide-react';
 import { NavMain } from "@/components/nav-main"
+import { ChartSpline } from 'lucide-react';
 import { NavProjects } from "@/components/nav-projects"
 import { NavSecondary } from "@/components/nav-secondary"
 import { NavUser } from "@/components/nav-user"
+import { Swords } from 'lucide-react';
+import { Database } from 'lucide-react';
+import { PanelsTopLeft } from 'lucide-react';
+import { IconSchool } from '@tabler/icons-react';
+import { IconMailOpened } from '@tabler/icons-react';
+import { ShieldCheck } from 'lucide-react';
 import {
   Sidebar,
   SidebarContent,
@@ -38,7 +50,7 @@ const data = {
     {
       title: "Mobile Computing",
       url: "#",
-      icon: SquareTerminal,
+      icon: TabletSmartphone,
       isActive: true,
       items: [
         {
@@ -62,7 +74,7 @@ const data = {
     {
       title: "Found. of CyberSec",
       url: "/dashboard/tuts/foundations-cyber-security",
-      icon: Bot,
+      icon: ShieldCheck,
       items: [
         {
           title: "FCS Course",
@@ -74,7 +86,7 @@ const data = {
     {
       title: "OTW Wargames",
       url: "/dashboard/tuts/otw-wargames",
-      icon: BookOpen,
+      icon: Swords,
       items: [
         {
           title: "Bandit",
@@ -94,7 +106,7 @@ const data = {
     {
       title: "100xDevs",
       url: "/dashboard/tuts/100xdev-app",
-      icon: BookOpen,
+      icon: PanelsTopLeft,
       items: [
         {
           title: "FullStack WebDev",
@@ -135,7 +147,7 @@ const data = {
     {
       title: "CP31",
       url: "/dashboard/tuts/cp",
-      icon: BookOpen,
+      icon: ChartSpline,
       items: [
         {
           title: "Codeforces",
@@ -185,7 +197,7 @@ const data = {
     {
       title: "Others",
       url: "/dashboard/tuts/typing",
-      icon: BookOpen,
+      icon: Cog,
       items: [
         {
           title: "Touch Typing",
@@ -197,18 +209,37 @@ const data = {
       ],
     },
   ],
+
+
   navSecondary: [
     {
-      title: "Support",
-      url: "#",
-      icon: LifeBuoy,
+      title: "Chatgpt",
+      url: "https://chatgpt.com/",
+      icon: Bot,
     },
     {
-      title: "Feedback",
-      url: "#",
-      icon: Send,
+      title: "Claude",
+      url: "https://claude.ai/",
+      icon: BotMessageSquare,
+    },
+    {
+      title: "Google Classroom",
+      url: "https://classroom.google.com/",
+      icon: IconSchool,
+    },
+    {
+      title: "Gmail",
+      url: "https://mail.google.com/mail/u/0/#inbox",
+      icon: IconMailOpened,
+    },
+    {
+      title: "Github",
+      url: "https://github.com/kintsugi-programmer",
+      icon: IconBrandGit,
     },
   ],
+
+
   projects: [
     {
       name: "Design Engineering",
@@ -357,11 +388,13 @@ const data = {
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar variant="inset" {...props}>
-      {/* <SidebarHeader>
+      <SidebarHeader>
         <SidebarMenu>
           <SidebarMenuItem>
+         
             <SidebarMenuButton size="lg" asChild>
-              <a href="#">
+            <Switch/>
+              {/* <a href="#">
                 <div className="flex aspect-square size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
                   <Command className="size-4" />
                 </div>
@@ -369,15 +402,17 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                   <span className="truncate font-semibold">Acme Inc</span>
                   <span className="truncate text-xs">Enterprise</span>
                 </div>
-              </a>
+              </a> */}
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>
-      </SidebarHeader> */}
+      </SidebarHeader>
+      
       <SidebarContent>
         <NavMain items={data.navMain} />
-        <NavProjects projects={data.projects} />
+        {/* <NavProjects projects={data.projects} /> */}
         <NavSecondary items={data.navSecondary} className="mt-auto" />
+        
       </SidebarContent>
       {/* <SidebarFooter>
         <NavUser user={data.user} />
