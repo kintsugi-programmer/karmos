@@ -6,9 +6,7 @@
 ---
 
 ## Table of Contents
-
 - [कर्मOS (KarmOS)](#कर्मos-karmos)
-  - [](#)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
   - [Features](#features)
@@ -150,4 +148,4 @@ We welcome contributions from the community! Please follow these steps:
 
 ---
 
-### Made with 💚 by [KintsugiDevStudios](https://kintsugidevstudios.com)
+### Made with 💚 by [KintsugiDevStudios](https://sbali.vercel.app/)
