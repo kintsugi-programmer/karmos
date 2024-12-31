@@ -81,13 +81,13 @@ const wargames = [
     title: "Bhakti",
     description:
       "Explore devotional content, including spiritual songs, prayers, and teachings from holy texts, designed to guide you in your spiritual journey.",
-    link: "/dashboard/tuts/Haiku",
+    link: "dashboard/tuts/Bhagwat-Geeta",
   },
   {
     title: "Albums",
     description:
       "A collection of musical albums covering a wide range of genres and themes, from Haiku to modern creations like The Millennials Folklore.",
-    link: "dashboard/tuts/Bhagwat-Geeta",
+    link: "/dashboard/tuts/The-Millennials-Folklore",
   },
   {
     title: "Others",
