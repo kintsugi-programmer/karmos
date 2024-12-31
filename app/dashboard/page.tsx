@@ -87,7 +87,7 @@ const wargames = [
     title: "Albums",
     description:
       "A collection of musical albums covering a wide range of genres and themes, from Haiku to modern creations like The Millennials Folklore.",
-    link: "/dashboard/tuts/Haiku",
+    link: "dashboard/tuts/Bhagwat-Geeta",
   },
   {
     title: "Others",
