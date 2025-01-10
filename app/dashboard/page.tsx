@@ -42,6 +42,12 @@ export default function Page() {
 }
 const wargames = [
   {
+    title: "Learn UX&UI",
+    description:
+      "Full UX Design Course for Beginners",
+    link: "/dashboard/tuts/uiux",
+  },
+  {
     title: "100xDev",
     description:
       "A technology company that builds economic infrastructure for the internet. Includes learning paths for web development, DevOps, Web3, and more.",

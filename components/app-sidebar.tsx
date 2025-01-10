@@ -53,10 +53,37 @@ const data = {
   },
   navMain: [
     {
+      title: "UI/UX",
+      url: "/dashboard/tuts/uiux",
+      icon: BookOpen,
+      items: [
+        {
+          title: "UX Inspiration",
+          url: "/dashboard/tuts/ux-inspiration",
+        },
+        {
+          title: "UI Design Inspiration",
+          url: "/dashboard/tuts/ui-design-inspiration",
+        },
+        {
+          title: "Portfolio",
+          url: "/dashboard/tuts/portfolio",
+        },
+        {
+          title: "Figma Resources & Plugins",
+          url: "/dashboard/tuts/figma-resources-plugin",
+        },
+        {
+          title: "Books & Podcasts",
+          url: "/dashboard/tuts/books-podcasts",
+        },
+      ],
+    }
+,    
+    {
       title: "Mobile Computing",
       url: "#",
       icon: TabletSmartphone,
-      isActive: true,
       items: [
         {
           title: "Java",
