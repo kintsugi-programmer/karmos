@@ -58,6 +58,10 @@ const data = {
       icon: BookOpen,
       items: [
         {
+          title: "UX Industry Course",
+          url: "/dashboard/tuts/uxui",
+        },
+        {
           title: "UX Inspiration",
           url: "/dashboard/tuts/ux-inspiration",
         },
@@ -231,6 +235,18 @@ const data = {
       url: "/dashboard/tuts/typing",
       icon: Cog,
       items: [
+        {
+          title: "HLD",
+          url: "/dashboard/tuts/hld",
+        },
+        {
+          title: "LLD",
+          url: "/dashboard/tuts/lld",
+        },
+        {
+          title: "Antivirus",
+          url: "/dashboard/tuts/python-anitvirus",
+        },
         {
           title: "Touch Typing",
           url: "/dashboard/tuts/typing",
