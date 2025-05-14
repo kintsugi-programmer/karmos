@@ -51,202 +51,213 @@ const data = {
     email: "m@example.com",
     avatar: "/avatars/shadcn.jpg",
   },
-  navMain: [
-    {
-      title: "UI/UX",
-      url: "/dashboard/tuts/uiux",
-      icon: BookOpen,
+  navMain: [{
+      title: "AI",
+      url: "/dashboard/tuts/ml",
+      icon: BrainCog,
       items: [
         {
-          title: "UX Industry Course",
-          url: "/dashboard/tuts/uxui",
-        },
-        {
-          title: "UX Inspiration",
-          url: "/dashboard/tuts/ux-inspiration",
-        },
-        {
-          title: "UI Design Inspiration",
-          url: "/dashboard/tuts/ui-design-inspiration",
-        },
-        {
-          title: "Portfolio",
-          url: "/dashboard/tuts/portfolio",
-        },
-        {
-          title: "Figma Resources & Plugins",
-          url: "/dashboard/tuts/figma-resources-plugin",
-        },
-        {
-          title: "Books & Podcasts",
-          url: "/dashboard/tuts/books-podcasts",
-        },
+          title: "ML Full Course",
+          url: "/dashboard/tuts/ml",
+        }
       ],
     }
 ,    
-    {
-      title: "Mobile Computing",
-      url: "#",
-      icon: TabletSmartphone,
-      items: [
-        {
-          title: "Java",
-          url: "/dashboard/tuts/java",
-        },
-        {
-          title: "OOPs",
-          url: "/dashboard/tuts/oops",
-        },
-        {
-          title: "Android Studio",
-          url: "/dashboard/tuts/android-java",
-        },
-        {
-          title: "Mobile Computing",
-          url: "/dashboard/tuts/mobile-computing",
-        },
-      ],
-    },
-    {
-      title: "Found. of CyberSec",
-      url: "/dashboard/tuts/foundations-cyber-security",
-      icon: ShieldCheck,
-      items: [
-        {
-          title: "FCS Course",
-          url: "/dashboard/tuts/foundations-cyber-security",
-        },
-      ],
-    },
+//     {
+//       title: "UI/UX",
+//       url: "/dashboard/tuts/uiux",
+//       icon: BookOpen,
+//       items: [
+//         {
+//           title: "UX Industry Course",
+//           url: "/dashboard/tuts/uxui",
+//         },
+//         {
+//           title: "UX Inspiration",
+//           url: "/dashboard/tuts/ux-inspiration",
+//         },
+//         {
+//           title: "UI Design Inspiration",
+//           url: "/dashboard/tuts/ui-design-inspiration",
+//         },
+//         {
+//           title: "Portfolio",
+//           url: "/dashboard/tuts/portfolio",
+//         },
+//         {
+//           title: "Figma Resources & Plugins",
+//           url: "/dashboard/tuts/figma-resources-plugin",
+//         },
+//         {
+//           title: "Books & Podcasts",
+//           url: "/dashboard/tuts/books-podcasts",
+//         },
+//       ],
+//     }
+// ,    
+//     {
+//       title: "Mobile Computing",
+//       url: "#",
+//       icon: TabletSmartphone,
+//       items: [
+//         {
+//           title: "Java",
+//           url: "/dashboard/tuts/java",
+//         },
+//         {
+//           title: "OOPs",
+//           url: "/dashboard/tuts/oops",
+//         },
+//         {
+//           title: "Android Studio",
+//           url: "/dashboard/tuts/android-java",
+//         },
+//         {
+//           title: "Mobile Computing",
+//           url: "/dashboard/tuts/mobile-computing",
+//         },
+//       ],
+//     },
+//     {
+//       title: "Found. of CyberSec",
+//       url: "/dashboard/tuts/foundations-cyber-security",
+//       icon: ShieldCheck,
+//       items: [
+//         {
+//           title: "FCS Course",
+//           url: "/dashboard/tuts/foundations-cyber-security",
+//         },
+//       ],
+//     },
    
-    {
-      title: "OTW Wargames",
-      url: "/dashboard/tuts/otw-wargames",
-      icon: Swords,
-      items: [
-        {
-          title: "Bandit",
-          url: "/dashboard/tuts/otw-wargames-bandit",
-        },
-        {
-          title: "Bandit Tuts",
-          url: "/dashboard/tuts/otw-bandit",
-        },
-        {
-          title: "Other Wargames",
-          url: "/dashboard/tuts/otw-wargames",
-        },
+//     {
+//       title: "OTW Wargames",
+//       url: "/dashboard/tuts/otw-wargames",
+//       icon: Swords,
+//       items: [
+//         {
+//           title: "Bandit",
+//           url: "/dashboard/tuts/otw-wargames-bandit",
+//         },
+//         {
+//           title: "Bandit Tuts",
+//           url: "/dashboard/tuts/otw-bandit",
+//         },
+//         {
+//           title: "Other Wargames",
+//           url: "/dashboard/tuts/otw-wargames",
+//         },
 
-      ],
-    },
-    {
-      title: "100xDevs",
-      url: "/dashboard/tuts/100xdev-app",
-      icon: PanelsTopLeft,
-      items: [
-        {
-          title: "FullStack WebDev",
-          url: "/dashboard/tuts/webdev",
-        },
-        {
-          title: "DevOps",
-          url: "/dashboard/tuts/devops",
-        },
-        {
-          title: "Web3",
-          url: "/dashboard/tuts/web3",
-        },
-        {
-          title: "Assignments",
-          url: "/dashboard/tuts/100xdev-ass",
-        },
-        {
-          title: "Projects",
-          url: "/dashboard/tuts/100xdev-proj",
-        },
-        {
-          title: "App",
-          url: "/dashboard/tuts/100xdev-app",
-        },
-        {
-          title: "Syllabus",
-          url: "/dashboard/tuts/100xdev-syll",
-        },
-        {
-          title: "Github",
-          url: "/dashboard/tuts/code100x",
-        },
+//       ],
+//     },
+//     {
+//       title: "100xDevs",
+//       url: "/dashboard/tuts/100xdev-app",
+//       icon: PanelsTopLeft,
+//       items: [
+//         {
+//           title: "FullStack WebDev",
+//           url: "/dashboard/tuts/webdev",
+//         },
+//         {
+//           title: "DevOps",
+//           url: "/dashboard/tuts/devops",
+//         },
+//         {
+//           title: "Web3",
+//           url: "/dashboard/tuts/web3",
+//         },
+//         {
+//           title: "Assignments",
+//           url: "/dashboard/tuts/100xdev-ass",
+//         },
+//         {
+//           title: "Projects",
+//           url: "/dashboard/tuts/100xdev-proj",
+//         },
+//         {
+//           title: "App",
+//           url: "/dashboard/tuts/100xdev-app",
+//         },
+//         {
+//           title: "Syllabus",
+//           url: "/dashboard/tuts/100xdev-syll",
+//         },
+//         {
+//           title: "Github",
+//           url: "/dashboard/tuts/code100x",
+//         },
 
 
-      ],
-    },
-    {
-      title: "CP31",
-      url: "/dashboard/tuts/cp",
-      icon: ChartSpline,
-      items: [
-        {
-          title: "Codeforces",
-          url: "/dashboard/tuts/cp",
-        },
-        {
-          title: "Tutorials",
-          url: "/dashboard/tuts/cp31-tuts",
-        },
-        {
-          title: "CP31 Sheet",
-          url: "/dashboard/tuts/cp31",
-        },
-        {
-          title: "800 Tuts",
-          url: "/dashboard/tuts/cp31-800",
-        },
+//       ],
+//     },
+//     {
+//       title: "CP31",
+//       url: "/dashboard/tuts/cp",
+//       icon: ChartSpline,
+//       items: [
+//         {
+//           title: "Codeforces",
+//           url: "/dashboard/tuts/cp",
+//         },
+//         {
+//           title: "Tutorials",
+//           url: "/dashboard/tuts/cp31-tuts",
+//         },
+//         {
+//           title: "CP31 Sheet",
+//           url: "/dashboard/tuts/cp31",
+//         },
+//         {
+//           title: "800 Tuts",
+//           url: "/dashboard/tuts/cp31-800",
+//         },
        
 
-      ],
-    },
-    {
-      title: "DS&A",
-      url: "/dashboard/tuts/dsa",
-      icon: BookOpen,
-      items: [
-        {
-          title: "A2Z Sheet",
-          url: "/dashboard/tuts/dsa-a2z",
-        },
-        {
-          title: "Tutorials",
-          url: "/dashboard/tuts/dsa",
-        },
-        {
-          title: "CP31 Sheet",
-          url: "/dashboard/tuts/cp31",
-        },
-        {
-          title: "800 Tuts",
-          url: "/dashboard/tuts/cp31-800",
-        },
+//       ],
+//     },
+//     {
+//       title: "DS&A",
+//       url: "/dashboard/tuts/dsa",
+//       icon: BookOpen,
+//       items: [
+//         {
+//           title: "A2Z Sheet",
+//           url: "/dashboard/tuts/dsa-a2z",
+//         },
+//         {
+//           title: "Tutorials",
+//           url: "/dashboard/tuts/dsa",
+//         },
+//         {
+//           title: "CP31 Sheet",
+//           url: "/dashboard/tuts/cp31",
+//         },
+//         {
+//           title: "800 Tuts",
+//           url: "/dashboard/tuts/cp31-800",
+//         },
        
 
-      ],
-    },
+//       ],
+//     },
     {
       title: "Others",
       url: "/dashboard/tuts/typing",
       icon: Cog,
       items: [
-        {
-          title: "HLD",
-          url: "/dashboard/tuts/hld",
-        },
-        {
-          title: "LLD",
-          url: "/dashboard/tuts/lld",
-        },
-        {
-          title: "Antivirus",
-          url: "/dashboard/tuts/python-anitvirus",
-        },
+        // {
+        //   title: "HLD",
+        //   url: "/dashboard/tuts/hld",
+        // },
+        // {
+        //   title: "LLD",
+        //   url: "/dashboard/tuts/lld",
+        // },
+        // {
+        //   title: "Antivirus",
+        //   url: "/dashboard/tuts/python-anitvirus",
+        // },
         {
           title: "Touch Typing",
           url: "/dashboard/tuts/typing",
